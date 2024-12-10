@@ -1,0 +1,7 @@
+#Ejercicio #12
+lista = [0, 3, 6,2, 10, 2, 1, 15]
+alto = lista [0]
+for i in range (0, len(lista)):
+    if lista [i] > alto:
+        alto = lista [i]
+print ("El número mayor es:  ", alto)

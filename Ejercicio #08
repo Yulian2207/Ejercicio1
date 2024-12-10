@@ -1,0 +1,12 @@
+#Ejercicio #08
+
+lista = [0, 0, 0, 0, 0]
+for i in range (len(lista)):
+    print ("Introduce el elemneto " + str (i) + " de la lista: ")
+    lista [i] = int (input ())
+
+suma = 0
+for i in range (len(lista)):
+    suma = suma + lista [i]
+media = suma/len(lista)
+print ("La media es " + str (media))

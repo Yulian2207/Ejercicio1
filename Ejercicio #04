@@ -1,0 +1,8 @@
+#Ejercicio #04
+
+numero = (input("Ingresa un número de de tres dígito: "))
+m = numero [0]
+n = numero [1]
+p = numero [2]
+resultado = int(m) + int(n) + int(p)
+print (f"El resultado de la suma de los digitos del número ingresado es: " + str (resultado))

@@ -1,0 +1,36 @@
+#Ejercicio #09
+# def mcd (a, b):
+#     temporal = 0
+#     while b != 0:
+#         temporal = b
+#         b = a % b
+#         a = temporal
+#     return a
+
+# a = 200
+# b = 6
+# resultado = mcd (a, b)
+# print(f"El resultado es {resultado}")
+# numeros = [15, 20, 30]
+# mcd = numeros [0]
+# for num in numeros [1:]:
+#     while num != 0:
+#         mcd, num = num, mcd % num
+# print (mcd)
+def mcd (a, b):
+    while True: 
+        residuo = a % b
+        if (residuo == 0):
+            return b
+        else:
+            a = b
+            b = residuo
+
+a = int(input("Ingrese 1 número entero: "))
+b = int(input("Ingrese un número entero: "))
+print ("")
+input ("Presione enter para continuar...")
+
+mcd (a, b)
+resultado = mcd (a, b)
+print ("El MCD de ", a, "y", b, "es: ", resultado)
